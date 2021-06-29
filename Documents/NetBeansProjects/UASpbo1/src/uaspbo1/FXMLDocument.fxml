@@ -23,7 +23,7 @@
                      <VBox.margin>
                         <Insets top="10.0" />
                      </VBox.margin></Button>
-                  <Button id="sideData" fx:id="sideDataBtn" layoutX="10.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#onClickHandleButtonActionData" prefHeight="42.0" prefWidth="187.0" text="Data">
+                  <Button id="sideData" fx:id="sideDataBtn" layoutX="10.0" layoutY="46.0" mnemonicParsing="false" onAction="#OnHandleButtonActionData" onMouseClicked="#onClickHandleButtonActionData" prefHeight="42.0" prefWidth="187.0" text="Data">
                      <VBox.margin>
                         <Insets top="5.0" />
                      </VBox.margin></Button>

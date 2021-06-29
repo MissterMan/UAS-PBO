@@ -60,4 +60,10 @@ public class FXMLDocumentController implements Initializable {
         borderPane.setCenter(root);
     }
 
+    @FXML
+    private void OnHandleButtonActionData(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("Data.fxml"));
+        borderPane.setCenter(root);
+    }
+
 }
