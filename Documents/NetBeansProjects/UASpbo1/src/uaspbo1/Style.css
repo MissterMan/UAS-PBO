@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 15, 2021, 8:50:29 PM
+    Author     : Prayogi
+*/
+
+@font-face {
+    -fx-font-family: Montserrat;
+    src: url("file:src/uaspbo1/font/Montserrat-Regular.ttf"); 
+}
+
+@font-face {
+    -fx-font-family: Montserrat-Bold;
+    src: url("file:src/uaspbo1/font/Montserrat-Bold.ttf"); 
+}
+
+.root{
+    -fx-background-color: #FFFFFF;
+}
+
+.label{
+    -fx-font-family: Montserrat;
+}
+
+.text-field{
+    -fx-font-family: Montserrat;
+}
+
+.text-area{
+    -fx-font-family: Montserrat;
+}
+
+#labelMenu{
+    -fx-font-family: Montserrat;
+    -fx-font-weight: Bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+#splashLabel{
+    -fx-font-family: Montserrat;
+    -fx-font-weight: Bold;
+    -fx-font-size: 24px;
+}
+
+#labelInput{
+    -fx-font-family: Montserrat;
+    -fx-font-weight: Bold;
+    -fx-font-size: 18px;
+}
+
+#labelData{
+    -fx-font-family: Montserrat;
+    -fx-font-weight: Bold;
+    -fx-font-size: 18px;
+}
+
+#inputButton{
+    -fx-font-family: Montserrat;
+    -fx-background-color: #FC6A03;
+    -fx-text-fill: #FFFFFF;
+}
+
+#labelMenu{
+    -fx-font-family: Montserrat;
+    -fx-font-weight: Bold;
+    -fx-font-size: 24px;
+}
+
+#labelMenu{
+    -fx-font-family: Montserrat;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: Bold;
+    -fx-font-size: 18px;
+}
+
+#sideBar{
+    -fx-background-color: #FC6A03;
+}
+
+#sideInput{
+    -fx-background-color: #FD9941;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: Bold;
+    -fx-font-family: Montserrat;
+    -fx-font-size: 10px;
+
+}
+#sideData{
+    -fx-background-color: #FC6A03;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: Bold;
+    -fx-font-family: Montserrat;
+    -fx-font-size: 10px;
+
+}
+#sideExit{
+    -fx-background-color: #FC6A03;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: Bold;
+    -fx-font-family: Montserrat;
+    -fx-font-size: 10px;
+}
