@@ -7,7 +7,11 @@ package uaspbo1;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -16,6 +20,17 @@ import javafx.fxml.Initializable;
  */
 public class InputController implements Initializable {
 
+    @FXML
+    private TextField txtNama;
+    @FXML
+    private TextArea txtAreaAlamat;
+    @FXML
+    private TextField txtTelfon;
+    @FXML
+    private TextField txtBerat;
+    @FXML
+    private Button btnInput;
+
     /**
      * Initializes the controller class.
      */
@@ -23,5 +38,7 @@ public class InputController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    
+    
     
 }

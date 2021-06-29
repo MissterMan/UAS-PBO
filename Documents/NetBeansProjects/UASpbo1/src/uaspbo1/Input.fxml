@@ -23,7 +23,7 @@
                   <Insets left="15.0" top="30.0" />
                </VBox.margin>
             </Label>
-            <TextField promptText="Pratama Putra">
+            <TextField fx:id="txtNama" promptText="Pratama Putra">
                <VBox.margin>
                   <Insets left="15.0" right="215.0" top="10.0" />
                </VBox.margin>
@@ -33,7 +33,7 @@
                   <Insets left="15.0" top="10.0" />
                </VBox.margin>
             </Label>
-            <TextArea prefHeight="87.0" prefWidth="530.0" promptText="JL. Jalan Blok 00, No. 00">
+            <TextArea fx:id="txtAreaAlamat" prefHeight="87.0" prefWidth="530.0" promptText="JL. Jalan Blok 00, No. 00">
                <VBox.margin>
                   <Insets left="15.0" right="15.0" top="10.0" />
                </VBox.margin>
@@ -43,7 +43,7 @@
                   <Insets left="15.0" top="10.0" />
                </VBox.margin>
             </Label>
-            <TextField promptText="081234567890">
+            <TextField fx:id="txtTelfon" promptText="081234567890">
                <VBox.margin>
                   <Insets left="15.0" right="300.0" top="10.0" />
                </VBox.margin>
@@ -53,12 +53,12 @@
                   <Insets left="15.0" top="10.0" />
                </VBox.margin>
             </Label>
-            <TextField layoutX="10.0" layoutY="190.0" promptText="0">
+            <TextField fx:id="txtBerat" layoutX="10.0" layoutY="190.0" promptText="0">
                <VBox.margin>
                   <Insets left="15.0" right="450.0" top="10.0" />
                </VBox.margin>
             </TextField>
-            <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="101.0" text="Input">
+            <Button fx:id="btnInput" mnemonicParsing="false" prefHeight="32.0" prefWidth="101.0" text="Input">
                <VBox.margin>
                   <Insets left="415.0" top="45.0" />
                </VBox.margin>

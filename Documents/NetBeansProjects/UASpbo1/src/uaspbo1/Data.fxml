@@ -22,10 +22,10 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
                <columns>
-                  <TableColumn prefWidth="132.0" text="Nama" />
-                  <TableColumn prefWidth="158.0" text="Alamat" />
-                  <TableColumn prefWidth="147.0" text="Nomor Telfon" />
-                  <TableColumn prefWidth="72.0" text="Berat" />
+                  <TableColumn fx:id="colNama" prefWidth="132.0" resizable="false" text="Nama" />
+                  <TableColumn fx:id="colAlamat" prefWidth="158.0" resizable="false" text="Alamat" />
+                  <TableColumn fx:id="colTelfon" prefWidth="147.0" resizable="false" text="Nomor Telfon" />
+                  <TableColumn fx:id="colBerat" prefWidth="72.0" resizable="false" text="Berat" />
                </columns>
             </TableView>
          </children>
