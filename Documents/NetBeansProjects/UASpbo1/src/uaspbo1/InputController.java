@@ -44,13 +44,13 @@ public class InputController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }
 
     @FXML
     private void OnActionHandleButtonInput(ActionEvent event) throws IOException {
 
-        String file = "src/uaspbo1/Data.txt";
+        String file = "src/Data.txt";
         FileWriter write = new FileWriter(file, true);
 
         String nama = txtNama.getText();
